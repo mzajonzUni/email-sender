@@ -1,2 +1,16 @@
-package pl.zajonz.emailsender.model;public class InfoMessage {
+package pl.zajonz.emailsender.model;
+
+import lombok.Data;
+
+@Data
+public class InfoMessage {
+
+    private int bookId;
+    private String book_title;
+    private String book_author;
+    private String book_category;
+    private String email;
+    private String user_firstName;
+    private String user_lastName;
+
 }

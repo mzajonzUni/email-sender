@@ -7,7 +7,7 @@ import org.springframework.stereotype.Service;
 
 @Service
 @RequiredArgsConstructor
-public class MessageSender {
+public class MessageSenderImpl implements MessageSender {
 
     private final RabbitTemplate rabbitTemplate;
 

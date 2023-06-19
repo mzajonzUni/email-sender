@@ -1,2 +1,5 @@
-package pl.zajonz.emailsender.service;public class MessageSender {
+package pl.zajonz.emailsender.service;
+
+public interface MessageSender {
+    void sendInfo(String info);
 }
